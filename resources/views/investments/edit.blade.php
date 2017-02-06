@@ -3,10 +3,6 @@
     <h1>Update Investment</h1>
     {!! Form::model($investment,['method' => 'PATCH','route'=>['investments.update',$investment->id]]) !!}
     <div class="form-group">
-        {!! Form::label('symbol', 'Symbol:') !!}
-        {!! Form::text('symbol',null,['class'=>'form-control']) !!}
-    </div>
-    <div class="form-group">
         {!! Form::label('name', 'Cust Name:') !!}
         {!! Form::text('name',null,['class'=>'form-control']) !!}
     </div>
